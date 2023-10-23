@@ -32,6 +32,7 @@ Places
 
 Rants
 |Field|Type|
+|-----|-----|
 |\_id| Object ID|
 |place_id| ref(places) Object_Id|
 |rant| Boolean|
