@@ -15,5 +15,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "REST-Rant is an app where users can review restaurants."
+  "description": "REST-Rant is an app where users can review restaurants.",
+  "nodemonConfig": {
+    "ext": "jsx,js,json,html"
+  }
 }
