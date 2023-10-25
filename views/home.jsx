@@ -5,7 +5,7 @@ function home(html) {
   return (
     <Def>
       <main>
-        <h1>HOME</h1>
+        <h1>REST-Rant</h1>
         <div>
           <img src="/images/chai-fruit-drink.jpg" alt="chai fruit shake"/>
           <div>

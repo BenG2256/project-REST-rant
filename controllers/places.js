@@ -18,7 +18,9 @@ router.get("/", (req, res) => {
       pic: "/images/cat-cafe.jpg",
     },
   ];
-
+  router.get('/new', (req,res) => {
+    res.render('places/new')
+  })
   res.render("places/index", { places });
 });
 
