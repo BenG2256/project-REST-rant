@@ -18,13 +18,16 @@ router.get("/", (req, res) => {
       pic: "/images/cat-cafe.jpg",
     },
   ];
-  router.get('/new', (req,res) => {
-    res.render('places/new')
-  })
-  router.post('/new', (req,res) => {
-    res.render('places/new')
-  })
+ 
   res.render("places/index", { places });
+});
+
+router.get("/new", (req, res) => {
+  res.render("places/new");
+});
+router.post("/", (req, res) => {
+  console.log(req.body);
+  res.send("/places");
 });
 
 module.exports = router;
