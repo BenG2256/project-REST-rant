@@ -1,5 +1,5 @@
 const React = require("react");
-const Def = require("../Default");
+const Def = require("./Default");
 
 function show(data) {
   let comments = (<h3 className="inactive">No Comments yet!</h3>)
